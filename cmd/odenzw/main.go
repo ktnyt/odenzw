@@ -8,6 +8,7 @@ import (
 
 	"github.com/go-gts/flags"
 	"github.com/ktnyt/go-perm"
+	"github.com/mattn/go-isatty"
 )
 
 func run(ctx *flags.Context) error {
@@ -39,7 +40,11 @@ func run(ctx *flags.Context) error {
 		}
 	}
 	for i := 0; i < len(ss); i += 10 {
-		fmt.Println(strings.Join(ss[i:i+10], " "))
+		sep := "\n"
+		if isatty.IsTerminal(os.Stdout.Fd()) {
+			sep = " "
+		}
+		fmt.Println(strings.Join(ss[i:i+10], sep))
 	}
 
 	return nil

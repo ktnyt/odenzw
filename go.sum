@@ -4,3 +4,7 @@ github.com/go-wrap/wrap v1.0.3 h1:RU0jS4l4s+fvcwS78EyK2GifQ30DsE7qQPj2GKwvuIc=
 github.com/go-wrap/wrap v1.0.3/go.mod h1:kL8K6KIL5pMt85dLdbRb9hDXO0cOk+YoArrlM8LNh8E=
 github.com/ktnyt/go-perm v0.1.0 h1:vIl3/zEV5SOPAdItm1IQm014VgVNjHIzbQCAnHXgPac=
 github.com/ktnyt/go-perm v0.1.0/go.mod h1:FonvRG7/37J36JUl7MeqRJm9AVhusIWw/il/KeaMi44=
+github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY=
+github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
+golang.org/x/sys v0.6.0 h1:MVltZSvRTcU2ljQOhs94SXPftV6DCNnZViHeQps87pQ=
+golang.org/x/sys v0.6.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
