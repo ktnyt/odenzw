@@ -52,7 +52,7 @@ func run(ctx *flags.Context) error {
 
 var VERSION = flags.Version{
 	Major: 1,
-	Minor: 0,
+	Minor: 1,
 	Patch: 0,
 }
 
